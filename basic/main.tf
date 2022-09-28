@@ -26,6 +26,7 @@ resource "azurerm_subnet" "vms" {
   address_prefixes     = ["172.19.0.0/23"]
   virtual_network_name = azurerm_virtual_network.example.name
 }
+
 resource "azurerm_linux_virtual_machine_scale_set" "set1" {
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example.location

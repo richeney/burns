@@ -1,6 +1,6 @@
 set1 = {
   prefix = "set1"
-  number = 3
+  number = 4
   sku    = "Standard_B1ms"
   image  = "Ubuntu18.04LTS"
 }
